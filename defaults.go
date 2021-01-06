@@ -150,24 +150,24 @@ var defaults = Config{
 		"default": {
 			Reset: 0xFF,
 
-			DefaultFg: 250,
-			DefaultBg: 240,
+			DefaultFg: 0,
+			DefaultBg: 117,
 
-			UsernameFg:     250,
-			UsernameBg:     240,
+			UsernameFg:     15,
+			UsernameBg:     117,
 			UsernameRootBg: 124,
 
-			HostnameFg: 250,
-			HostnameBg: 238,
+			HostnameFg: 15,
+			HostnameBg: 75,
 
 			HomeSpecialDisplay: true,
 			HomeFg:             15,  // white
-			HomeBg:             31,  // blueish
+			HomeBg:             69,  // blueish
 			AliasFg:            15,  // white
 			AliasBg:            31,  // blueish
-			PathFg:             250, // light grey
-			PathBg:             237, // dark grey
-			CwdFg:              254, // nearly-white grey
+			PathFg:             243, // light grey
+			PathBg:             15, // white
+			CwdFg:              0, // black
 			SeparatorFg:        244,
 
 			ReadonlyFg: 254,
@@ -193,10 +193,10 @@ var defaults = Config{
 			AWSFg: 15,  // white
 			AWSBg: 172, // AWS orange
 
-			RepoCleanFg: 0,   // black
-			RepoCleanBg: 148, // a light green color
+			RepoCleanFg: 235,   // dark gray
+			RepoCleanBg: 120, // a light green color
 			RepoDirtyFg: 15,  // white
-			RepoDirtyBg: 161, // pink/red
+			RepoDirtyBg: 210, // pink/red
 
 			JobsFg: 39,
 			JobsBg: 238,
@@ -217,9 +217,9 @@ var defaults = Config{
 			GitBehindFg:     250,
 			GitBehindBg:     240,
 			GitStagedFg:     15,
-			GitStagedBg:     22,
-			GitNotStagedFg:  15,
-			GitNotStagedBg:  130,
+			GitStagedBg:     77,
+			GitNotStagedFg:  0,
+			GitNotStagedBg:  221,
 			GitUntrackedFg:  15,
 			GitUntrackedBg:  52,
 			GitConflictedFg: 15,
