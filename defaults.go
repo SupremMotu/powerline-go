@@ -129,7 +129,7 @@ var defaults = Config{
 		},
 		"zsh": {
 			ColorTemplate:         "%%{\u001b%s%%}",
-			RootIndicator:         "%#",
+			RootIndicator:         "λ",
 			EscapedBackslash:      `\\`,
 			EscapedBacktick:       "\\`",
 			EscapedDollar:         `\$`,
