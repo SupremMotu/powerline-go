@@ -221,7 +221,7 @@ var defaults = Config{
 			GitNotStagedFg:  0,
 			GitNotStagedBg:  221,
 			GitUntrackedFg:  15,
-			GitUntrackedBg:  52,
+			GitUntrackedBg:  209,
 			GitConflictedFg: 15,
 			GitConflictedBg: 9,
 			GitStashedFg:    15,
